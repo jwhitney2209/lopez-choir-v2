@@ -2,7 +2,7 @@ import HeroImg from '../assets/hero.png'
 
 export default function Hero() {
   return (
-    <div className="relative isolate overflow-hidden pt-14">
+    <div className="relative mx-auto max-w-7xl isolate overflow-hidden pt-14">
         <img
           src={HeroImg}
           alt=""
