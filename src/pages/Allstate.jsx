@@ -3,14 +3,14 @@ import React from "react";
 const Allstate = () => {
   return (
     <>
-      <div className="max-w-[1240px] w-full h-full mx-auto text-center flex flex-col justify-center">
+      <div className="bg-white max-w-7xl w-full h-full mx-auto text-center flex flex-col justify-center">
         <div className="border-b-4">
-          <h1 className="text-2xl md:text-3xl font-bold text-blue-900 pb-2">
+          <h1 className="text-2xl md:text-3xl font-bold text-gray-900 py-4 sm:py-6">
             All State & UIL
           </h1>
         </div>
       </div>
-      <div className="max-w-[800px] text-blue-900 flex flex-col items-center text-center pt-2 md:text-left mx-2 md:mx-auto">
+      <div className="bg-white max-w-7xl text-gray-900 flex flex-col items-center text-center py-6 md:text-left md:mx-auto px-4">
         <p className="text-left">
           All LECHS choir students are{" "}
           <b>
@@ -36,8 +36,8 @@ const Allstate = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <button className="btn bg-blue-900">
-            UIL Solo & Ensemble sign-up
+          <button type="button" className="bg-gray-900 hover:bg-yellow-600 font-bold inline-flex items-center justify-center rounded-lg p-3.5 text-white">
+            UIL SOLO & ENSEMBLE SIGN-UP
           </button>
         </a>
         <br />

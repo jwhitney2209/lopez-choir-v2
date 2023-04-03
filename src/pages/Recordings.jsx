@@ -2,15 +2,15 @@ import React from "react";
 
 const Recordings = () => {
   return (
-    <div className="text-blue-900">
-      <div className="max-w-[1240px] w-full h-full mx-auto text-center flex flex-col justify-center">
+    
+      <div className="bg-white max-w-7xl w-full h-full mx-auto text-center flex flex-col justify-center">
         <div className="border-b-4">
-          <p className="text-blue-900 font-bold text-2xl md:text-3xl pb-2">
+          <p className="text-2xl md:text-3xl font-bold text-gray-900 py-4 sm:py-6">
             Recordings
           </p>
         </div>
-        <div className="max-w-[800px] w-full mx-auto text-center md:text-left flex flex-col justify-center">
-          <p className="text-blue-900 font-bold md:text-left text-xl pt-2">
+        <div className="bg-white max-w-7xl text-gray-900 flex flex-col items-center text-center py-6 md:mx-auto px-4 space-y-6">
+          <p className="text-gray-900 font-bold text-xl">
             Class Learning Tracks
           </p>
           <p className="mx-2 md:mx-0">
@@ -23,11 +23,11 @@ const Recordings = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="m-2 btn bg-blue-900">
-              Class Learning Tracks
+            <button type="button" className="bg-gray-900 hover:bg-yellow-600 font-bold inline-flex items-center justify-center rounded-lg p-3.5 text-white">
+              LEARNING RECORDINGS
             </button>
           </a>
-          <p className="text-blue-900 font-bold text-xl">
+          <p className="text-gray-900 font-bold text-xl">
             All-State Learning Tracks
           </p>
           <p className="mx-2 md:mx-0">
@@ -44,8 +44,8 @@ const Recordings = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="m-2 btn bg-blue-900">
-              All-State Learning Tracks
+            <button type="button" className="bg-gray-900 hover:bg-yellow-600 font-bold inline-flex items-center justify-center rounded-lg p-3.5 text-white">
+              ALL-STATE RECORDINGS
             </button>
           </a>
           {/* <p className="text-blue-900 font-bold text-xl p-2">
@@ -67,7 +67,6 @@ const Recordings = () => {
         </button> */}
         </div>
       </div>
-    </div>
   );
 };
 

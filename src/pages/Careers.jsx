@@ -3,17 +3,15 @@ import React from "react";
 const Careers = () => {
   return (
     <>
-      <div className="max-w-[1240px] w-full h-full mx-auto text-center flex flex-col justify-center">
+      <div className="bg-white max-w-7xl w-full h-full mx-auto text-center flex flex-col justify-center">
         <div className="border-b-4">
-          <h1 className="text-2xl md:text-3xl font-bold text-blue-900 pb-2">
+          <h1 className="text-2xl md:text-3xl font-bold text-gray-900 py-4 sm:py-6">
             Careers
           </h1>
         </div>
       </div>
-      <div className="max-w-[800px] text-blue-900 pt-2 text-left mx-2 md:mx-auto">
-        <h1 className="font-bold text-center">Medical Field</h1>
-        <br />
-        <h1 className="font-bold">Music Therapy</h1>
+      <div className="bg-white max-w-7xl text-gray-900 flex flex-col items-center text-center py-6 md:text-left md:mx-auto px-4">
+        <h1 className="font-bold text-center text-2xl">Music Therapy</h1>
         <br />
         <p>
           <b>What is Music Therapy?</b>
@@ -89,10 +87,12 @@ const Careers = () => {
           treatment programs, correctional facilities and in hospice care
           programs.
         </p>
-      </div>
-      <br />
-      <div className="max-w-[800px] text-blue-900 pt-2 text-left mx-2 md:mx-auto">
-        <h1 className="font-bold text-center">Music Business/Management</h1>
+
+        <br />
+
+        <h1 className="font-bold text-center text-2xl">
+          Music Business/Management
+        </h1>
         <br />
         <p>
           <b>Personal Manager (or Artist Manager, Agent)</b>

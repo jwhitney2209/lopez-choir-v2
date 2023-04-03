@@ -4,14 +4,14 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import LoboLogo from '../assets/siteicon.png'
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'All State & UIL', href: '#' },
-  { name: 'Calendar', href: '#' },
-  { name: 'Choir Council', href: '#' },
-  { name: 'Syllabus', href: '#' },
-  { name: 'Recordings', href: '#' },
-  { name: 'Parents', href: '#' },
-  { name: 'Careers', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'All State & UIL', href: '/allstate' },
+  { name: 'Calendar', href: '/calendar' },
+  { name: 'Choir Council', href: '/council' },
+  { name: 'Syllabus', href: '/syllabus' },
+  { name: 'Recordings', href: '/recordings' },
+  { name: 'Parents', href: '/info' },
+  { name: 'Careers', href: '/careers' },
 ]
 
 export default function Navigation() {
@@ -21,8 +21,8 @@ export default function Navigation() {
     <header className="bg-gray-900 mx-auto max-w-7xl">
       <nav className=" flex  items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">Your Company</span>
+          <a href="/" className="-m-1.5 p-1.5">
+            <span className="sr-only">Lopez Choir</span>
             <img className="h-8 w-auto" src={LoboLogo} alt="" />
           </a>
         </div>
@@ -38,13 +38,13 @@ export default function Navigation() {
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
           {navigation.map((item) => (
-            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white hover:text-yellow-500">
               {item.name}
             </a>
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <a href="/" className="text-sm font-semibold leading-6 text-gray-900">
             Log in <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
@@ -53,8 +53,8 @@ export default function Navigation() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+            <a href="/" className="-m-1.5 p-1.5">
+              <span className="sr-only">Lopez Choir</span>
               <img
                 className="h-8 w-auto"
                 src={LoboLogo}
@@ -77,7 +77,7 @@ export default function Navigation() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-gray-50/10"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-white hover:bg-yellow-500 hover:text-gray-900"
                   >
                     {item.name}
                   </a>
@@ -85,7 +85,7 @@ export default function Navigation() {
               </div>
               <div className="py-6">
                 <a
-                  href="#"
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   Log in

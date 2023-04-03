@@ -3,15 +3,15 @@ import React from "react";
 const Syllabus = () => {
   return (
     <>
-      <div className="max-w-[1240px] w-full h-full mx-auto text-center flex flex-col justify-center">
+      <div className="bg-white max-w-7xl w-full h-full mx-auto text-center flex flex-col justify-center">
         <div className="border-b-4">
-          <h1 className="text-2xl md:text-3xl font-bold text-blue-900 pb-2">
+          <h1 className="text-2xl md:text-3xl font-bold text-gray-900 py-4 sm:py-6">
             Syllabus
           </h1>
         </div>
       </div>
-      <div className="max-w-[800px] w-full h-full mx-auto text-center flex flex-col justify-center">
-        <div className="mx-2 text-sm text-blue-900">
+      <div className="bg-white max-w-7xl text-gray-900 flex flex-col items-center text-center py-6 md:text-left md:mx-auto px-4">
+        <div className="text-sm text-gray-900">
           <h1 className="text-xl font-bold">
             2022-2023
             <br />

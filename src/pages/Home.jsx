@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div className="bg-white py-6 px-8 mx-auto max-w-7xl">
+      <div className="bg-white py-12 px-4 sm:px-8 mx-auto max-w-7xl">
         <div className="flex flex-col-reverse lg:flex-row justify-between">
           <Announcements />
           <Carousel>
