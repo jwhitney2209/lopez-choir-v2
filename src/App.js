@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navigation from "./components/navigation.component";
 import Home from "./pages/Home";
 import Footer from "./components/footer.component";
@@ -14,19 +14,19 @@ import Careers from "./pages/Careers";
 function App() {
   return (
     <>
-        <Routes>
-          <Route path="/" element={<Navigation />}>
-            <Route index element={<Home />} />
-            <Route path="recordings" element={<Recordings />} />
-            <Route path="calendar" element={<Calendar />} />
-            <Route path="council" element={<Council />} />
-            <Route path="syllabus" element={<Syllabus />} />
-            <Route path="allstate" element={<Allstate />} />
-            <Route path="info" element={<Info />} />
-            <Route path="careers" element={<Careers />} />
-          </Route>
-        </Routes>
-        <Footer />
+      <Routes>
+        <Route path="/" element={<Navigation />}>
+          <Route index element={<Home />} />
+          <Route path="recordings" element={<Recordings />} />
+          <Route path="calendar" element={<Calendar />} />
+          <Route path="council" element={<Council />} />
+          <Route path="syllabus" element={<Syllabus />} />
+          <Route path="allstate" element={<Allstate />} />
+          <Route path="info" element={<Info />} />
+          <Route path="careers" element={<Careers />} />
+        </Route>
+      </Routes>
+      <Footer />
     </>
   );
 }
