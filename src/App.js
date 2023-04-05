@@ -14,7 +14,6 @@ import Careers from "./pages/Careers";
 function App() {
   return (
     <>
-      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Navigation />}>
             <Route index element={<Home />} />
@@ -28,7 +27,6 @@ function App() {
           </Route>
         </Routes>
         <Footer />
-      </BrowserRouter>
     </>
   );
 }
