@@ -5,13 +5,13 @@ import LoboLogo from '../assets/siteicon.png'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'All State & UIL', href: '/allstate' },
-  { name: 'Calendar', href: '/calendar' },
-  { name: 'Choir Council', href: '/council' },
-  { name: 'Syllabus', href: '/syllabus' },
-  { name: 'Recordings', href: '/recordings' },
-  { name: 'Parents', href: '/info' },
-  { name: 'Careers', href: '/careers' },
+  { name: 'All State & UIL', href: 'allstate' },
+  { name: 'Calendar', href: 'calendar' },
+  { name: 'Choir Council', href: 'council' },
+  { name: 'Syllabus', href: 'syllabus' },
+  { name: 'Recordings', href: 'recordings' },
+  { name: 'Parents', href: 'info' },
+  { name: 'Careers', href: 'careers' },
 ]
 
 export default function Navigation() {
