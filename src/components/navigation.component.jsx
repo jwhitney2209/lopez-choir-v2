@@ -2,22 +2,24 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import LoboLogo from '../assets/siteicon.png'
+import { Outlet } from 'react-router-dom'
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'All State & UIL', href: 'allstate' },
-  { name: 'Calendar', href: 'calendar' },
-  { name: 'Choir Council', href: 'council' },
-  { name: 'Syllabus', href: 'syllabus' },
-  { name: 'Recordings', href: 'recordings' },
-  { name: 'Parents', href: 'info' },
-  { name: 'Careers', href: 'careers' },
+  { name: 'All State & UIL', href: '/allstate' },
+  { name: 'Calendar', href: '/calendar' },
+  { name: 'Choir Council', href: '/council' },
+  { name: 'Syllabus', href: '/syllabus' },
+  { name: 'Recordings', href: '/recordings' },
+  { name: 'Parents', href: '/info' },
+  { name: 'Careers', href: '/careers' },
 ]
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
+    <>
     <header className="bg-gray-900 mx-auto max-w-7xl">
       <nav className=" flex  items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
@@ -96,5 +98,8 @@ export default function Navigation() {
         </Dialog.Panel>
       </Dialog>
     </header>
+    <Outlet />
+    </>
+
   )
 }
