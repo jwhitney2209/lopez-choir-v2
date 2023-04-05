@@ -11,7 +11,7 @@ const Syllabus = () => {
         </div>
       </div>
       <div className="bg-white max-w-7xl text-gray-900 flex flex-col items-center text-center py-6 md:text-left md:mx-auto px-4">
-        <div className="text-sm text-gray-900">
+        <div className="text-gray-900">
           <h1 className="text-xl font-bold">
             2022-2023
             <br />
