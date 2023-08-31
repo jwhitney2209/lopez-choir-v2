@@ -31,7 +31,7 @@ const Recordings = () => {
             All-State Learning Tracks
           </p>
           <p className="mx-2 md:mx-0">
-            Learnings tracks for the 2022-2023 All-State Music
+            Learnings tracks for the 2023-2024 All-State Music
             <br />{" "}
             <i>
               (you must be logged in to your student email through google in
@@ -40,7 +40,7 @@ const Recordings = () => {
           </p>
           <a
             className=""
-            href="https://drive.google.com/drive/folders/1U9mnezuqyE6AMJAObHFvD6FkXn1zw6W9?usp=sharing"
+            href="https://drive.google.com/drive/folders/1-1bj0p4QaRTgsXpLbw2_CrJjpVf8fm7T?usp=drive_link"
             target="_blank"
             rel="noreferrer"
           >
