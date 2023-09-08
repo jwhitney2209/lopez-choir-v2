@@ -26,13 +26,13 @@ const Council = () => {
         </p>
         <br />
         <p>
-          President - Mia Gracia
+          President - Erasmo Martinez Jr.
           <br />
-          Vice President - Erasmo Martinez Jr.
+          Vice President - Christian Quintero
           <br />
-          Secretary - Christian Quintero
+          Secretary - Luis Nava
           <br />
-          Treasurer - Janice Maldonado
+          Treasurer - Malenie Ruiz
           <br />
           <br />
           <b>Choir Leadership Team</b>
